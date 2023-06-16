@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: left;
+  background-color: #080824;
+}
+p,h1,h2,h3,h4,h5,h6,a{
+  font-family: "Montserrat, sans-serif";
+  letter-spacing: 0.6px;
+}
+ol.steps li:first-child::after {
+  content: counter(numbers, decimal);
+  counter-increment: numbers;
+  box-sizing: border-box;
+  left: -130px;
+  top: -30px;
+  color: #fff;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 50px;
+  padding-top: 2.5rem;
+  text-align: center;
+  background: url(./Images/number.png) no-repeat;
+  width: 130px;
+  height: 130px;
+}
+ol.steps li:last-child::after {
+  background: url(./Images/number.png) no-repeat;
+}
+
+ol.steps li:before, ol.steps li:after {
+  position: absolute;
+}
+.steps li {
+  position: relative;
+  margin: 0.75rem 0 1.25rem 1.875rem;
+  list-style: outside none none;
+  font-size: 0.875rem;
+}
+
+.homePageBtnHover{
+background-color: "#f1552c" !important;
+}
+
+/* .abc{
+  background-image: url("https://img.freepik.com/free-vector/police-pursue-catch-thief-holding-bag-money-illustration_33070-5721.jpg?size=626&ext=jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+} */
