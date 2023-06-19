@@ -68,6 +68,8 @@
   .top-bar {
     height: auto;
     flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: center;
   }
 
   .top-bar-left {
@@ -84,6 +86,8 @@
 
   .top-bar-right {
     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -91,6 +95,8 @@
   .top-bar {
     height: auto;
     flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: center;
   }
 
   .top-bar-contact {
@@ -112,6 +118,8 @@
   .top-bar {
     height: auto;
     flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: center;
   }
 
   .top-bar-contact {

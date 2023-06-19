@@ -12,6 +12,7 @@ import Newsletter from './Newsletter'
 import HomeCta from './HomeCta'
 import Topbar from './Topbar'
 import TokenIntro from './TokenIntro'
+import ContactForm from './ContactForm'
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
     <Topbar/>
     <Navbar/>
     <HomeHero/>
-    <EcoSystem/>
+    {/* <EcoSystem/> */}
     <TokenIntro/>
     <Tokenomics/>
     <Newsletter/>
@@ -28,7 +29,8 @@ const Home = () => {
     <HowToBuy/>
     <Roadmap/>
     <HomeCta/>
-    <FAQPresale/>
+    <ContactForm/>
+    {/* <FAQPresale/> */}
     <Footer/>
     
     </div>

@@ -5,12 +5,12 @@ const Navbar = () => {
     return (
         <header className="banner">
             <div className="container">
-                <a className="brand-mobile d-block d-lg-none" href="https://falconswaps.com/" title="Falconswap">
+                {/* <a className="brand-mobile d-block d-lg-none" >
                     <img src="https://falconswaps.com/wp-content/themes/falconswaps/dist/images/logo.png" alt="Falconswap" width="197" height="195" loading="lazy" />
-                </a>
+                </a> */}
                 <nav className="nav-primary navbar navbar-expand-lg justify-content-center">
                     <div className="navbar-collapse offcanvas-collapse">
-                        <ul id="menu-main" className="navbar-nav align-items-center justify-content-around w-100">
+                        <ul id="menu-main" className=" navbar-nav align-items-center justify-content-around w-100">
                             <li id="menu-item-26" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-26 nav-item">
                                 <a title="Ecosystem" className="nav-link">Ecosystem</a>
                             </li>
@@ -27,7 +27,7 @@ const Navbar = () => {
                                 </a>
                             </li>
                             <li id="menu-item-142" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-142 nav-item">
-                                <a title="Binance smart chain" target="_blank" className="nav-link">Binance smart chain</a>
+                                <a title="Binance smart chain" target="_blank" className="nav-link">Ethereum</a>
                             </li>
                             <li id="menu-item-30" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-30 nav-item">
                                 <a title="Community" className="nav-link">Community</a>
@@ -35,10 +35,8 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </nav>
-                <button className="navbar-toggler p-0 border-0 position-fixed" type="button" data-toggle="offcanvas">
-                    <span className="icon-bar"></span>
-                    <span className="icon-bar"></span>
-                    <span className="icon-bar"></span>
+                <button className="navbar-toggler block p-0 border-0 position-fixed" type="button" data-toggle="offcanvas">
+                <i style={{color:"rgb(241, 85, 44)"}} className="fa-solid fa-bars fs-4"></i>
                 </button>
             </div>
         </header>

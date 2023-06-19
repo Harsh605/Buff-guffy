@@ -4,41 +4,39 @@ const HowToBuy = () => {
     return (
         <section className="page-how-to-buy container content-box" id="how-to-buy">
             <div className="box">
-                <div className="box-inner flex gap-5">
-                    <div className="w-[50%] p-3">
+             
+                <div className="flex flex-wrap ">
+                    <div className="sm:mb-12 mt-5 p-3 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6">
                         <h2 className='text-[#f1552c] mb-5 text-center'>
 
                             HOW TO BUY
                         </h2>
-                        <p className='text-[#ffffff] fs-5' style={{lineHeight:"30px"}}>
-                            To invest in DeFi, first, get the tokens you need from Binance Smart Chain. You will need BNB (BEP20) to be
-                            able to buy. Then you need a wallet with a dapp browser to be able to trade tokens in Falcon Swaps. Wallets
-                            endorsed are Trust Wallet for mobile and Metamask for desktop. Once you have the tokens and the wallet, you
-                            can venture safely into the Falcon Swaps ecosystem.
+                        <p className='text-[#ffffff] fs-5 mx-3' style={{ lineHeight: "30px" }}>
+                            To invest in DeFi, first, get the tokens you need from Ethereum Smart Chain. You will need ETH (ERC20) to be able to buy. Then you need a wallet with a dapp browser to be able to trade tokens in Buff  Goofy Swaps. Wallets endorsed are Trust Wallet for mobile and Metamask for desktop. Once you have the tokens and the wallet, you can venture safely into the Buff Goofy Swaps ecosystem.
                         </p>
                     </div>
-                    <div className="w-[50%] p-3">
+                    <div className=" sm:mb-12 mt-5 p-3 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6">
                         <h3 className="text-[#fcd227] fs-5 text-center mb-5">QUICK START GUIDE</h3>
                         <ol className="steps">
                             <li className="step">
-                                <h4 className='text-[#f1552c]'>Create MetaMask wallet</h4>
-                                <p className="text-[#ffffff] fs-6">Register on Mata Mask Wallet through app or browser</p>
+                                <h4 className='text-[#f1552c]'>Create Web3 wallets</h4>
+                                <p className="text-[#ffffff] fs-6">Register on Mata Mask or other Wallets through app or browser</p>
                             </li>
                             <li className="step">
-                                <h4 className='text-[#f1552c]'>Send BUSD to your wallet</h4>
-                                <p className="text-[#ffffff] fs-6"> Add BUSD to your Metamask Wallet</p>
+                                <h4 className='text-[#f1552c]'>Send ETH to your wallet</h4>
+                                <p className="text-[#ffffff] fs-6"> Add ETH to your Wallet</p>
                             </li>
                             <li className="step">
-                                <h4 className='text-[#f1552c]'>Connect your wallet to Pancakeswap</h4>
-                                <p  className="text-[#ffffff] fs-6">Browse your Metamask wallet and connect it with Pancakeswap.finance</p>
+                                <h4 className='text-[#f1552c]'>Connect your wallet to Uniswap</h4>
+                                <p className="text-[#ffffff] fs-6">Browse your wallet and connect it with Uniswap.org</p>
                             </li>
                             <li className="step">
-                                <h4 className='text-[#f1552c]'>Swap BUSD for Falcon</h4>
-                                <p  className="text-[#ffffff] fs-6 " >
-                                    Now go to trade and exchange BUSD to $FLNS
+                                <h4 className='text-[#f1552c]'>Swap ETH for Buff Goofy</h4>
+                                <p className="text-[#ffffff] fs-6 " >
+                                    Now go to trade and exchange ETH to Buff Goofy
                                     <br />
-                                    You will get LP tokens through staking FLNS / BUSD tokens in Liquidity Pools. Stake $FLNS / BUSD pair to
-                                    earn tokens in Pancake Swap
+                                    You will get LP tokens through staking BFGFY / ETH tokens in Liquidity Pools. Stake BFGFY / ETH pair to
+                                    earn tokens in Uniswap
                                 </p>
                             </li>
                         </ol>

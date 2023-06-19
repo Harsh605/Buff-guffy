@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Hero.css"
+import ConnectBtn from './ConnectBtn'
+import WagmiUtils from '../Blockchain/WagmiUtils'
 
 const HomeHero = () => {
   return (
@@ -12,13 +14,14 @@ const HomeHero = () => {
 
       <p>&nbsp;</p>
 
-      <div className="container">
-        <p className="text-large" style={{ textAlign: 'center',color:"#ffffff",fontSize:"18px" }}>
+      <div className="container flex flex-wrap justify-center">
+        {/* <p className="text-large" style={{ textAlign: 'center',color:"#ffffff",fontSize:"18px" }}>
           New generation AMM DEX for existing and new projects on Binance Smart Chain (BSC), offering the best trading experience and better project support.
-        </p>
+        </p> */}
         <p>&nbsp;</p>
-        <p className='' style={{ textAlign: 'center',display:"flex",justifyContent:"center",gap:"10px",marginBottom:"10px" }}>
+        <p className='' style={{flexWrap:"wrap", textAlign: 'center',display:"flex",justifyContent:"center",gap:"10px",marginBottom:"10px" }}>
           <a className="btn btn-primary bg-transparent border-4  border-color-custom"style={{borderColor: "#f1552c"}}>Connect to Wallet</a>
+          {/* <WagmiUtils compo={<ConnectBtn />}/> */}
           <a className="btn btn-primary bg-transparent border-4  border-color-custom" style={{borderColor: "#f1552c"}}>Buy Now</a>
         </p>
       </div>

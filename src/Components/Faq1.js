@@ -21,7 +21,7 @@ const FAQPresale = () => {
             <Grid xs={12} sm={12} md={12} className="how_to_buy_top">
               <div className="buy_more_first_col">
                 {/* <h2 className='heading_color_light'>The Long-Term Approach</h2> */}
-                <h2 className="&quot;bigHeading pt-4 mb-5 font-bold xl:text-5xl lg:text-4xl md:text-4xl text-3xl lg:leading-[2.5rem] 2xl:leading-[3.7rem]&quot; restContent" style={{ display: "flex", justifyContent: "center" }}><span class="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4361EE] main_headings_center">  FAQs</span></h2>
+                <h2 className="&quot;bigHeading pt-4 mb-5 font-bold xl:text-5xl lg:text-4xl md:text-4xl text-3xl lg:leading-[2.5rem] 2xl:leading-[3.7rem]&quot; restContent" style={{ display: "flex", justifyContent: "center" }}><span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4361EE] to-[#4361EE] main_headings_center">  FAQs</span></h2>
                 {/* <p style={{ marginBottom:"30px",textAlign:"center" }}  className="text-white text-lg font-bold">
                   Use the contract information below to add the BUFF GOOFY token to
                   your wallet.

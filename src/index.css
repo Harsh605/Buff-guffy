@@ -12,11 +12,20 @@ body {
   text-align: left;
   background-color: #080824;
 }
-p,h1,h2,h3,h4,h5,h6,a{
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
   font-family: "Montserrat, sans-serif";
   letter-spacing: 0.6px;
 }
-ol.steps li:first-child::after {
+
+/* ol.steps li:first-child::after {
   content: counter(numbers, decimal);
   counter-increment: numbers;
   box-sizing: border-box;
@@ -31,14 +40,16 @@ ol.steps li:first-child::after {
   background: url(./Images/number.png) no-repeat;
   width: 130px;
   height: 130px;
-}
-ol.steps li:last-child::after {
+} */
+/* ol.steps li:last-child::after {
   background: url(./Images/number.png) no-repeat;
-}
+} */
 
-ol.steps li:before, ol.steps li:after {
+ol.steps li:before,
+ol.steps li:after {
   position: absolute;
 }
+
 .steps li {
   position: relative;
   margin: 0.75rem 0 1.25rem 1.875rem;
@@ -46,8 +57,77 @@ ol.steps li:before, ol.steps li:after {
   font-size: 0.875rem;
 }
 
-.homePageBtnHover{
-background-color: "#f1552c" !important;
+
+
+ol.steps {
+  counter-reset: numbers;
+  list-style-type: none;
+}
+
+ol.steps li {
+  position: relative;
+  margin: 0.75rem 0 1.25rem 1.875rem;
+  list-style: none;
+  font-size: 0.875rem;
+}
+
+ol.steps li:before {
+  position: absolute;
+  content: counter(numbers, decimal);
+  counter-increment: numbers;
+  box-sizing: border-box;
+  left: -130px;
+  top: -30px;
+  color: #fff;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 50px;
+  padding-top: 2.5rem;
+  text-align: center;
+  width: 130px;
+  height: 130px;
+  background: url(./Images/number.png) no-repeat;
+
+}
+
+ol.steps li:after {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 130px;
+  height: 130px;
+}
+
+.step:nth-child(1):after {
+  background-image: url('./Images/number.png');
+}
+
+.step:nth-child(2):after {
+  background-image: url('./Images/number.png');
+}
+
+.step:nth-child(3):after {
+  background-image: url('./Images/number.png');
+}
+
+.step:nth-child(4):after {
+  background-image: url('./Images/number.png');
+}
+
+
+.homePageBtnHover {
+  background-color: "#f1552c" !important;
+}
+
+
+
+
+
+
+
+
+.homePageBtnHover {
+  background-color: "#f1552c" !important;
 }
 
 /* .abc{
@@ -56,3 +136,6 @@ background-color: "#f1552c" !important;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 } */
+
+/* Navbar.css */
+

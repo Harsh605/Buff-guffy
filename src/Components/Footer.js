@@ -10,13 +10,13 @@ function Footer() {
                 <div>
                     <h1 className="text-[#4361EE] font-semibold lg:text-2xl">BUFF GOOFY</h1>
                     <p className="text-white xl:w-[559px] pt-4">
-                        We aim to establish a secure space that instills confidence in investing in digital assets. Our platform provides essential resources to users, regardless of their level of expertise in the crypto investment realm
+                    Our vision is simple - to create a platform that puts gamers and BUFF GOOFY holders first, providing a unique gaming experience and exciting rewards.
                     </p>
                     <div className="grid lg:grid-cols-1 xl:grid-cols-2 grid-cols-1 md:grid-cols-1 pt-9">
 
                         <div className="flex gap-2 text-white md:pt-4 pt-4 xl:pt-0">
                             <svg
-                               
+
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-8 w-8 text-white bg-[#4361EE] rounded-full leading-4 p-2"
                                 fill="none"
@@ -32,7 +32,7 @@ function Footer() {
                             </svg>
                             <div>
                                 <p className="text-[#4361EE] fs-5">Contact us at</p>
-                                <h3 className='fs-5'>contact@buffgoffy.io</h3>
+                                <h3 className='fs-5'>contact@buffguffy.com</h3>
                             </div>
                         </div>
                     </div>
@@ -69,19 +69,43 @@ function Footer() {
                 </span>
               </div> */}
                         <div className="relative overflow-hidden block footer-div cursor-pointer">
-                            <span className="block"><a target="_blank" href="https://www.linkedin.com/company/BUFF GOOFYchain">
+                            <span className="block"><a target="_blank" href="https://www.linkedin.com/in/buff-goofy-164bb027a">
                                 <FaLinkedinIn className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
                             </a></span>
                         </div>
                         <div className="relative overflow-hidden block footer-div cursor-pointer">
+                            <span className="block"><a target="_blank" href="mailto:contact@buffgoofy.com">
+                                <i className="fa-solid fa-envelope text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8"></i>
+                            </a></span>
+                        </div>
+                        <div className="relative overflow-hidden block footer-div cursor-pointer">
+                            <span className="block"><a target="_blank" href="https://www.facebook.com/profile.php?id=100093479117440">
+                                <i className="fa-brands fa-facebook text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8"></i>
+                            </a></span>
+                        </div>
+                        <div className="relative overflow-hidden block footer-div cursor-pointer">
                             <span className="block">
-                                <a target="_blank" href="https://t.me/BUFF GOOFYchain">
-                                    <TbBrandTelegram className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
+                                <a target="_blank" href="https://www.instagram.com/buff.goofy/">
+                                    <i className="fa-brands fa-instagram text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8"></i>
                                 </a></span>
 
                         </div>
                         <div className="relative overflow-hidden block footer-div cursor-pointer">
-                            <span className="block"><a target="_blank" href="https://twitter.com/BUFF GOOFY_chain">
+                            <span className="block">
+                                <a target="_blank" href="http://discordapp.com/users/1118422230804725760">
+                                    <i className="fa-brands fa-discord text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8"></i>
+                                </a></span>
+
+                        </div>
+                        <div className="relative overflow-hidden block footer-div cursor-pointer">
+                            <span className="block">
+                                <a target="_blank" href="https://www.reddit.com/user/Buff_Goofy/">
+                                    <i className="fa-brands fa-reddit text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8"></i>
+                                </a></span>
+
+                        </div>
+                        <div className="relative overflow-hidden block footer-div cursor-pointer">
+                            <span className="block"><a target="_blank" href="https://twitter.com/findoutsoon">
                                 <FiTwitter className="text-white bg-[#7A7893] rounded-full leading-4 p-2 h-8 w-8" />
                             </a></span>
                         </div>
@@ -97,14 +121,14 @@ function Footer() {
             {/* Lower footer */}
             <div className="grid lg:grid-cols-2 grid-cols-1 pt-16 md:grid-cols-1">
                 <div className="md:flex justify-between text-white text-xs md:text-base flex-col lg:flex-row">
-                    <p><a >About Us</a></p>
-                    <p><a >Contact</a></p>
-                    {/* <Privacypolicy /> */}
+                    <p><a >Ecosystem</a></p>
                     <p><a >Roadmap</a></p>
-                    <p>Terms of Use</p>
+                    {/* <Privacypolicy /> */}
+                    <p><a >Community</a></p>
+                    <p>How to Buy</p>
                 </div>
                 <div className="text-white lg:justify-end justify-start pt-0 flex md:justify-start md:pt-4 text-xs md:text-base lg:pt-0">
-                    © 2000-2021, All Rights Reserved
+                    © 2000-2023, All Rights Reserved
                 </div>
             </div>
         </div>

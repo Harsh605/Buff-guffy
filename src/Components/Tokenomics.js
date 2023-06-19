@@ -5,40 +5,9 @@ import "./Token.css";
 
 const Tokenomics = () => {
     const dataMock = [
-        { title: "Seed 2%", value: 2.0, color: "#3260ed", titlep: "Seed" },
-        { title: "Private  6%", value: 6.0, color: "#8ca8ff", titlep: "Private" },
-        {
-            title: "Public Sale 8%",
-            value: 8.0,
-            color: "#7af0d1",
-            titlep: "Public Sale",
-        },
-        {
-            title: "Marketing 6%",
-            value: 6.0,
-            color: "#3290ed",
-            titlep: "Marketing",
-        },
-        { title: "Team 18%", value: 18.0, color: "#7c7af0", titlep: "Team" },
-        {
-            title: "Strategic Funding 15% ",
-            value: 15.0,
-            color: "#32e4ed",
-            titlep: "Strategic Funding",
-        },
-        {
-            title: "Ecosystem Rewards 35% ",
-            value: 35.0,
-            color: "#32bbed",
-            titlep: "Ecosystem Rewards",
-        },
-        {
-            title: "Liquidity 5%",
-            value: 5.0,
-            color: "#4b00e2",
-            titlep: "Liquidity",
-        },
-        { title: "Advisory 5%", value: 5.0, color: "#4bffe2", titlep: "Advisory" },
+        { title: "Burn supply 50%", value: 50.0, color: "#32e4ed", titlep: "Burn supply" },
+        { title: "Remaining supply  50%", value: 50.0, color: "#7c7af0", titlep: "Remaining supply" },
+
     ];
 
     const toolTip = useRef(null);
@@ -47,7 +16,7 @@ const Tokenomics = () => {
 
             <h1
                 className="bigHeading p-10 font-semibold xl:text-5xl lg:text-4xl md:text-4xl text-3xl text-white lg:leading-[2.5rem] 2xl:leading-[3.7rem]"
-                style={{ textAlign:"center"}}
+                style={{ textAlign: "center" }}
             >
                 <span className="text-[#ff0000] -translate-x-2/4">
                     {" "}
@@ -59,16 +28,11 @@ const Tokenomics = () => {
             <div className="pi-data tknTop flex justify-center">
                 <div className="flex flex-col lg:flex-row justify-between items-center gap-y-14">
                     <div className="lg:w-1/4 sm:w-full">
-                        <p className="text-white text-justify text-lg ">
-                            “Based on 10% token release at TGE for Pre-Public sale investors
-                            and 50% token release for Public sale investors at TGE.
-                            <br /> There will be a vesting period of 24 months for all
-                            Pre-Public sale investors and 12 months for Public Sale
-                            investors and the tokens will be released on a monthly basis as
-                            per the token release schedule.
-                            <br /> Team tokens are locked for 6 months after TGE and will be
-                            vested for 18 months after that and released as per token
-                            release schedule.”
+                        <p style={{fontFamily:"revert"}} className="text-white text-justify text-lg ">
+                            “A token named "Buff Goofy" is created with a supply of 1,000 trillion. Initially, 50% of the tokens are burned, reducing the supply. The remaining 50% is distributed among users, ensuring broad ownership.
+                            <br/>  <br/>
+                            A maximum buy and sell tax of 5% is implemented . However, the tax rate can be gradually reduced to 0% in the future, promoting a more dynamic and flexible token economy.
+                            As part of the token distribution, 15% of the token supply is allocated to the marketing wallet.”
                         </p>
                     </div>
                     <div className="mainPieCgar">
@@ -95,15 +59,15 @@ const Tokenomics = () => {
                             labelPosition={75}
                         />
                         <p>
-                            Total <small>500,000,000</small>
+                            Total <small>1000 trillion</small>
                         </p>
                     </div>
                     <ul className="ul_data-list">
-                        <h5>Token Pools</h5>
+                        <h5 className="fs-4">Token Pools</h5>
                         {dataMock &&
                             dataMock.map((data, id) => {
                                 return (
-                                    <li key={id}>
+                                    <li className="fs-5" key={id}>
                                         <div>
                                             <small style={{ background: data.color }}></small>{" "}
                                             {data.titlep}
